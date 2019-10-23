@@ -15,13 +15,19 @@ Install ursctrl using the latest version of setuptools and pip::
 Usage
 -----
 
-::
+Execute using the module directly or using the convenience script::
 
- Cisco Umbrella Roaming Security module for AnyConnect control utility
+    $ python3 -m ursctl
+    Cisco Umbrella Roaming Security module for AnyConnect control utility
+    usage: ursctl [option]::
+     	-d, --disable	Disable the module
+     	-e, --enable	Enable the module
+     	-s, --status	Print module status
 
- usage: ursctl [option]::
- 	-d, --disable	Disable the module
- 	-e, --enable	Enable the module
- 	-s, --status	Print module status
-
+    $ ursctl
+    Cisco Umbrella Roaming Security module for AnyConnect control utility
+    usage: ursctl [option]::
+        -d, --disable   Disable the module
+        -e, --enable    Enable the module
+        -s, --status    Print module status
 
