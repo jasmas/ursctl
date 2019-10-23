@@ -19,14 +19,14 @@ Execute using the module directly or using the convenience script::
 
     $ python3 -m ursctl
     Cisco Umbrella Roaming Security module for AnyConnect control utility
-    usage: ursctl [option]::
+    usage: ursctl [option]
      	-d, --disable	Disable the module
      	-e, --enable	Enable the module
      	-s, --status	Print module status
 
     $ ursctl
     Cisco Umbrella Roaming Security module for AnyConnect control utility
-    usage: ursctl [option]::
+    usage: ursctl [option]
         -d, --disable   Disable the module
         -e, --enable    Enable the module
         -s, --status    Print module status
